@@ -26,6 +26,11 @@ class Bank {
         System.out.println("The account type is " + accountType + " and the balance is " + accountBalance);
     }
 }
+//Number 6
+class Insurance extends Bank {
+
+
+}
 public class Main {
 
 }
