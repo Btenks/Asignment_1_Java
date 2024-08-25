@@ -1,6 +1,6 @@
 //Number 1
 class Bank {
-    private String accountType;
+    private final String accountType;
     private double accountBalance;
 //Number 4
     public Bank(String accountType, double accountBalance) {
@@ -41,5 +41,8 @@ public class Main {
 //Number 8
     public static void main(String[] args) {
         Bank myBankAccount = new Bank("BTM", 230234);
+
+//Number 9
+        myBankAccount.display();
     }
 }
