@@ -2,7 +2,11 @@
 class Bank {
     private String accountType;
     private double accountBalance;
-
+//Number 4
+    public Bank(String accountType, double accountBalance) {
+        this.accountType = accountType;
+        this.accountBalance = accountBalance;
+    }
 // Number 2
     public double deposit(double amount) {
         accountBalance += amount;
