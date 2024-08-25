@@ -32,7 +32,7 @@ class Insurance extends Bank {
     public Insurance(String accountType, double accountBalance) {
         super(accountType, accountBalance);
     }
-//Number 7
+//Number 7 (cover)
     public void cover() {
         System.out.println("You are covered");
     }
