@@ -29,7 +29,13 @@ class Bank {
 //Number 6
 class Insurance extends Bank {
 
-
+    public Insurance(String accountType, double accountBalance) {
+        super(accountType, accountBalance);
+    }
+//Number 7
+    public void cover() {
+        System.out.println("You are covered");
+    }
 }
 public class Main {
 
