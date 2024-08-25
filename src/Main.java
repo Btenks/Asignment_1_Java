@@ -38,5 +38,8 @@ class Insurance extends Bank {
     }
 }
 public class Main {
-
+//Number 8
+    public static void main(String[] args) {
+        Bank myBankAccount = new Bank("BTM", 230234);
+    }
 }
