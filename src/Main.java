@@ -21,6 +21,10 @@ class Bank {
         }
     return accountBalance;
     }
+// Number 5
+    public void display() {
+        System.out.println("The account type is " + accountType + " and the balance is " + accountBalance);
+    }
 }
 public class Main {
 
